@@ -10,7 +10,7 @@ function Item.GetCode(FileName, StoreModules)
     Modules = game:GetService("ServerScriptService").CodeHub:FindFirstChild("Modules")
     if not Modules then Modules = CodeHubScripts.Modules:Clone() Modules.Parent = game:GetService("ServerScriptService").CodeHub end
     temp = {
-      File = tostring(FileName)
+      FileName = require(Module)
     }
     table.insert(require(Modules), temp)
   end
