@@ -1,6 +1,6 @@
 local Module = {}
 
-function Module.Testing(text)
+function Module.Print(text)
   print(text)
 end
 
