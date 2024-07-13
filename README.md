@@ -5,6 +5,13 @@ This code was made for the convinience of Roblox Game Developers and may NOT UND
 
 ## How To Setup
 
+DO THESE FIRST, NOTHING WILL WORK WITHOUT THIS!!!
+Step 1: Go to your games settings, then go to "Security", and enable "Allow HTTP Requests" The code will not work without this
+Step 2: Select ServerScriptService (Located in your explorer window) then locate the property named "LoadStringEnabled", make sure that its enabled
+
+Disclaimer:
+When you enable LoadStringEnabled it makes your game slightly more vaulnerable to hackers, this is because you might not always be using a completely trusted web source, in this case we are using github so we will be fine
+
 ### Manually
 
 Step 1: Open ServerScriptService
