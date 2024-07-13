@@ -67,3 +67,13 @@ You can put whatever text you want here, you can even add a variable
 ```
 
 Once i start adding stuff ill link a playlist here so people have instructions on how to use everything
+
+# Modules
+Remember,
+If a module has an Asterisk and/or its *Italic* then its work it progress
+If a module has a & then that means i coded it on my phone then debugged it the next day (this is just so you know how much pain i went through not being able to test, my phone also ha auto-capitalization so i make typo, and there is no way for me to make a tab indent using samsung notes, so when i import my code i have to replace all of the spaces with tab indents ):  )
+
+- main.lua (Info, [File](https://github.com/CelestialDodo/RobloxStudio-CodeHub/blob/main/main.lua))
+- Example.lua (Info, [File](https://github.com/CelestialDodo/RobloxStudio-CodeHub/blob/main/Example.lua))
+- **MapEssentials.lua* (Info, [File](https://github.com/CelestialDodo/RobloxStudio-CodeHub/blob/main/MapEssentials.lua))
+- **DodoUI.lua* (Info, [File](https://github.com/CelestialDodo/RobloxStudio-CodeHub/blob/main/DodoUI.lua))
