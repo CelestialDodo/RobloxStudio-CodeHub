@@ -4,7 +4,7 @@ function Item.GetCode(FileName, StoreModules)
   FileName = "https://raw.githubusercontent.com/CelestialDodo/RobloxGameCodeTemplates/main/"..string.gsub(FileName,".lua","")..".lua"
   Module = loadstring(game:GetService("HttpService"):GetAsync(FileName))()
   if StoreModules then
-    local Modules = script:FindFirstChild("Modules")
+    Modules = script:FindFirstChild("Modules")
     if not Modules then Modules = CodeHubScripts.Modules:Clone() Modules.Parent = script end
     table.insert(Modules, require(Module))
   end
