@@ -25,10 +25,7 @@ local function processQueue(queue, webhookUrl)
 				table.insert(queue, 1, messageData)  -- Re-add the message to the queue
 				wait(retryInterval)  -- Wait before retrying
 			else
-				print("Message sent to Discord successfully to webhook: " .. webhookUrl)
-				print("Response Status Code:", response.StatusCode)
-				print("Response Body:", response.Body)
-				wait(0.25)
+				wait(0.2)
 			end
 		else
 			wait(retryInterval)  -- Wait if the queue is empty
@@ -37,7 +34,10 @@ local function processQueue(queue, webhookUrl)
 end
 
 -- Function to add a message to a random webhook's queue
-function DWS.sendMessageToDiscord(message, webhooks, displayTime)
+function DWS.send(message, webhooks, displayTime)
+	if type(webhooks) == "string" then
+		webhooks = {webhooks}  -- Convert the string to a table
+	end
 	-- Set default value for displayTime if not provided
 	if displayTime == nil then
 		displayTime = true
@@ -65,7 +65,6 @@ function DWS.sendMessageToDiscord(message, webhooks, displayTime)
 		["Content-Type"] = "application/json"
 	}
 	table.insert(webhookQueues[selectedWebhook], {data = data, headers = headers})
-	print("Message added to queue for webhook: " .. selectedWebhook)
 end
 
 return DWS
