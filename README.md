@@ -14,7 +14,7 @@ Step 2: Select ServerScriptService (Located in your explorer window) then locate
 Disclaimer:
 When you enable LoadStringEnabled it makes your game slightly more vaulnerable to hackers, this is because you might not always be using a completely trusted web source, in this case we are using github so we will be fine
 
-### Manually
+### Manually [Section Of Video](https://youtu.be/nLzPYYK4Sfo?si=g-7pneS_y3v6elaW&t=14)
 
 Step 1: Open ServerScriptService
 Step 2: Create a new server script and place in ServerScriptService (MUST BE SERVER SCRIPT)
@@ -24,7 +24,7 @@ Step 3: Put this code into the script
 ```
 Step 4: Name your script "CodeHub" so you dont confuzed later
 
-### Command Bar
+### Command Bar [Section Of Video](https://youtu.be/nLzPYYK4Sfo?si=g-7pneS_y3v6elaW&t=64)
 
 Step 1: Copy this line of code
 ```luau
@@ -34,7 +34,7 @@ Step 2: Locate the command bar at the bottom of your roblox studio that says "Ru
 Step 3: Paste the code that you copied into this line, then press enter, it should make a new script called "CodeHub" in ServerScriptService
 
 
-### With My Plugin
+### With My Plugin [Section Of Video](https://youtu.be/nLzPYYK4Sfo?si=g-7pneS_y3v6elaW&t=202)
 
 Step 1: Get The Plugin, [Click Me For The Plugin](https://create.roblox.com/store/asset/18465056276/CodeHub)
 Step 2: Go to plugins page and press "Make CodeHub"
