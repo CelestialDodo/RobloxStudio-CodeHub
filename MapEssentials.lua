@@ -1,4 +1,4 @@
-
+-- THIS CODE IS IN TESTING, DO NOT EXPECT IT ALL TO WORK
 local MapEssentials = {} 
 
 MapEssentials.Map = nil
