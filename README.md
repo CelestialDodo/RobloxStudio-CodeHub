@@ -75,5 +75,5 @@ If a module has a & then that means i coded it on my phone then debugged it the 
 
 - main.lua (Info, [File](https://github.com/CelestialDodo/RobloxStudio-CodeHub/blob/main/main.lua))
 - Example.lua (Info, [File](https://github.com/CelestialDodo/RobloxStudio-CodeHub/blob/main/Example.lua))
-- &**MapEssentials.lua* (Info, [File](https://github.com/CelestialDodo/RobloxStudio-CodeHub/blob/main/MapEssentials.lua))
+- &MapEssentials.lua (Info, [File](https://github.com/CelestialDodo/RobloxStudio-CodeHub/blob/main/MapEssentials.lua))
 - &**DodoUI.lua* (Info, [File](https://github.com/CelestialDodo/RobloxStudio-CodeHub/blob/main/DodoUI.lua))
