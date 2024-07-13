@@ -7,12 +7,15 @@ function Item.GetCode(FileName, StoreModules)
   Module = loadstring(game:GetService("HttpService"):GetAsync(File))()
   CodeHubScripts = require(18476370903)
   if StoreModules then
+    print("STORING MODULE...")
     Modules = game:GetService("ServerScriptService").CodeHub:FindFirstChild("Modules")
     if not Modules then Modules = CodeHubScripts.Modules:Clone() Modules.Parent = game:GetService("ServerScriptService").CodeHub end
     temp = {
       FileName = require(Module)
     }
+    print(temp)
     table.insert(require(Modules), temp)
+    print(require(Modules))
   end
   return Module, CodeHubScripts
 end
