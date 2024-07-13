@@ -1,7 +1,7 @@
 local Item = {}
 
 function Item.GetCode(FileName)
-  FileName = "https://raw.githubusercontent.com/CelestialDodo/RobloxGameCodeTemplates/main/"..FileName..".lua"
+  FileName = "https://raw.githubusercontent.com/CelestialDodo/RobloxGameCodeTemplates/main/"..string.gsub(FileName,".lua","")..".lua"
   return(loadstring(game:GetService("HttpService"):GetAsync(FileName))())
 end
 
