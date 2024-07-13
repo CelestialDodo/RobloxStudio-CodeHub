@@ -1,9 +1,11 @@
+[Playlist](https://www.youtube.com/playlist?list=PLIqujbGBd-7k21-vbTrn4oblYl5prVEkz) (Includes Tutorial Videos)
+
 # This is a list of code for roblox games
 
 This code was made for the convinience of Roblox Game Developers and may NOT UNDER ANY CIRCUMSTANCE BE USED FOR HACKS/EXPLOITS
 
 
-## How To Setup
+## How To Setup [Tutorial Video](https://www.youtube.com/watch?v=nLzPYYK4Sfo&list=PLIqujbGBd-7k21-vbTrn4oblYl5prVEkz&index=1)
 
 DO THESE FIRST, NOTHING WILL WORK WITHOUT THIS!!!
 Step 1: Go to your games settings, then go to "Security", and enable "Allow HTTP Requests" The code will not work without this
@@ -22,7 +24,7 @@ Step 3: Put this code into the script
 ```
 Step 4: Name your script "CodeHub" so you dont confuzed later
 
-### Fast Way
+### Command Bar
 
 Step 1: Copy this line of code
 ```luau
@@ -32,11 +34,14 @@ Step 2: Locate the command bar at the bottom of your roblox studio that says "Ru
 Step 3: Paste the code that you copied into this line, then press enter, it should make a new script called "CodeHub" in ServerScriptService
 
 
-### With My Plugin (Not Finished Yet)
+### With My Plugin
+
+Step 1: Get The Plugin, [Click Me For The Plugin](https://create.roblox.com/store/asset/18465056276/CodeHub)
+Step 2: Go to plugins page and press "Make CodeHub"
 
 Ignore this for now please
 
-## How to use the code
+## How to use the code [Tutorial Video](https://youtu.be/4A7fbqnlxTc?si=GwNlSPpF5_SCjH6n)
 
 Open your CodeHub script, We have lots of Modules for you to pick from, to use them you need to Inport them with another line of code
 Assuming you did exactly what the instructions say and nothing nor less, this line of code should work
