@@ -9,7 +9,7 @@ function Item.GetCode(FileName, StoreModules)
 		print(":)")
 		loadstring = require(script:FindFirstChild("Loadstring"))
 	end
-	loadstring(game:GetService("HttpService"):GetAsync(File))()
+	local Module = loadstring(game:GetService("HttpService"):GetAsync(File))()
 	local CodeHubScripts = require(18476370903)
 	if StoreModules then
 		local Modules = game:GetService("ReplicatedStorage"):FindFirstChild("Modules")
