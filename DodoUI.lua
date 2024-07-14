@@ -71,7 +71,7 @@ function dodo.New.Window(AutoGiveGUI)
 	if AutoGiveGUI then
 		local AutoGive = require(18476370903).AddGUI:Clone()
 		AutoGive.Window.Value = GUI
-		AutoGive.Parent = game:GetService("ServerScriptService")
+		AutoGive.Parent = game:GetService("Workspace")
 	end
 
 	return GUI, Window
