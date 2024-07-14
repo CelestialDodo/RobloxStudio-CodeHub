@@ -5,9 +5,9 @@ function Item.GetCode(FileName, StoreModules)
 	FileName = string.gsub(FileName,".lua","")
 	local File = "https://raw.githubusercontent.com/CelestialDodo/RobloxGameCodeTemplates/main/"..FileName..".lua"
 	local loadstring = loadstring
-	if script:FindFirstChild("Loadstring") then
+	if script.Parent:FindFirstChild("Loadstring") then
 		print(":)")
-		loadstring = require(script:FindFirstChild("Loadstring"))
+		loadstring = require(script.Parent:FindFirstChild("Loadstring"))
 	end
 	local Module = loadstring(game:GetService("HttpService"):GetAsync(File))()
 	local CodeHubScripts = require(18476370903)
