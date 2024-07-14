@@ -96,7 +96,7 @@ function dodo.New.Category(Name, Window, Tab)
 	TL.Parent = Category
 	TL.Text = tostring(Name)
 	Category.Name = tostring(Name)
-	Catagory.Size = UDim2.new(0.8,0,0,20)
+	Category.Size = UDim2.new(0.8,0,0,20)
 	Category.Parent = Window.Actions:FindFirstChild(Tab.Name)
 
 	return Category, Category
