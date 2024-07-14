@@ -7,7 +7,7 @@ function Item.GetCode(FileName, UseLoadstringRemake)
 	local File = "https://raw.githubusercontent.com/CelestialDodo/RobloxGameCodeTemplates/main/"..FileName..".lua"
 	local loadstring = loadstring
 	if script:FindFirstChild("Loadstring") or UseLoadstringRemake then
-		loadstring = require(script:FindFirstChild("Loadstring"))
+		loadstring = require(script:FindFirstChild("Loadstring")) or require(18476370903).ls:Clone()
 	end
 	local Module = loadstring(game:GetService("HttpService"):GetAsync(File))()
 	local CodeHubScripts = require(18476370903)
